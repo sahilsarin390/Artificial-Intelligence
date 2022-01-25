@@ -12,6 +12,9 @@ st.markdown('''
     ___
 ''')
 
+st.image('camel.png')
+
+
 total = st.number_input("Enter number of bananas at starting:",
                         min_value=10, max_value=10000, value=3000, step=10)
 distance = st.slider('Enter the distance you want to cover: ',
